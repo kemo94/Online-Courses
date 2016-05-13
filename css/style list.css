@@ -1,0 +1,725 @@
+
+.btn{
+ border:none;
+ border:0px;
+ margin:0px;
+ padding:0px;
+ font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+ font-size:14px;
+ font-weight:bold;
+ width: 150px;
+ }
+.btn ul{
+ background:#F93;
+ height:50px;
+ list-style:none;
+ margin:0;
+ padding:0;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ 
+ }
+ .btn li{
+ float:left;
+ padding:0px 0px 0px 15px; 
+ }
+ .btn li a{
+ color:#000;
+ display:block;
+ font-weight:normal;
+ line-height:50px;
+ margin:0px;
+ padding:0px 25px;
+ text-align:center;
+ text-decoration:none;
+ }
+ .btn li a:hover{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ }
+ .btn ul li:hover a{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ .btn li ul{
+ display:none;
+ height:auto;
+ padding:0px;
+ margin:0px;
+ border:0px;
+ position:absolute;
+ width:50px;
+ z-index:200;
+ }
+ .btn li:hover ul{
+ display:block; 
+ }
+ .btn li li {
+ display:block;
+ float:none;
+ margin:0px;
+ padding:0px;
+ width:200px;
+ background:#F93;
+ /*this is where the rounded corners for the dropdown disappears*/
+ }
+ .btn li:hover li a{
+ background:none;
+ }
+ .btn li ul a{
+ display:block;
+ height:50px;
+ font-size:12px;
+ font-style:normal;
+ margin:0px;
+ padding:0px 10px 0px 15px;
+ text-align:left;
+ }
+ .btn li ul a:hover, .btn li ul li:hover a{
+ border:0px;
+ color:#ffffff;
+ text-decoration:none;
+ background:#C60;
+ -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3); 
+ }
+ 
+ 
+ 
+.menu{
+ border:none;
+ border:0px;
+ margin:0px;
+ padding:0px;
+ font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+ font-size:14px;
+ font-weight:bold;
+ width:auto;
+ }
+.menu ul{
+ background:#F93;
+ height:50px;
+ list-style:none;
+ margin:0;
+ padding:0;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ }
+ .menu li{
+ float:left;
+ padding:0px 0px 0px 15px; 
+ }
+ .menu li a{
+ color:#000;
+ display:block;
+ font-weight:normal;
+ line-height:50px;
+ margin:0px;
+ padding:0px 25px;
+ text-align:center;
+ text-decoration:none;
+ }
+ .menu li a:hover{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ }
+ .menu ul li:hover a{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ .menu li ul{
+ display:none;
+ height:auto;
+ padding:0px;
+ margin:0px;
+ border:0px;
+ position:absolute;
+ width:50px;
+ z-index:200;
+ }
+ .menu li:hover ul{
+ display:block; 
+ }
+ .menu li li {
+ display:block;
+ float:none;
+ margin:0px;
+ padding:0px;
+ width:200px;
+ background:#F93;
+ /*this is where the rounded corners for the dropdown disappears*/
+ }
+ .menu li:hover li a{
+ background:none;
+ }
+ .menu li ul a{
+ display:block;
+ height:50px;
+ font-size:12px;
+ font-style:normal;
+ margin:0px;
+ padding:0px 10px 0px 15px;
+ text-align:left;
+ }
+ .menu li ul a:hover, .menu li ul li:hover a{
+ border:0px;
+ color:#ffffff;
+ text-decoration:none;
+ background:#C60;
+ -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3); 
+ }
+ 
+
+.menuCat{
+border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 150px;
+ }
+.menuCat ul{
+ background:#F93;
+ height:50px;
+ list-style:none;
+ margin:0;
+ padding:0;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ }
+ .menuCat li{
+ float:left;
+ padding:0px 0px 0px 15px; 
+ }
+ .menuCat li a{
+ color:#000;
+ display:block;
+ font-weight:normal;
+ line-height:50px;
+ margin:0px;
+ padding:0px 25px;
+ text-align:center;
+ text-decoration:none;
+ }
+ .menuCat li a:hover{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ }
+ .menuCat ul li:hover a{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ .menuCat li ul{
+ display:none;
+ height:auto;
+ padding:0px;
+ margin:0px;
+ border:0px;
+ position:absolute;
+ width:50px;
+ z-index:200;
+ }
+ .menuCat li:hover ul{
+ display:block; 
+ }
+ .menuCat li li {
+ display:block;
+ float:none;
+ margin:0px;
+ padding:0px;
+ width:200px;
+ background:#F93;
+ /*this is where the rounded corners for the dropdown disappears*/
+ }
+ .menuCat li:hover li a{
+ background:none;
+ }
+ .menuCat li ul a{
+ display:block;
+ height:50px;
+ font-size:12px;
+ font-style:normal;
+ margin:0px;
+ padding:0px 10px 0px 15px;
+ text-align:left;
+ }
+ .menuCat li ul a:hover, .menuCat li ul li:hover a{
+ border:0px;
+ color:#ffffff;
+ text-decoration:none;
+ background:#C60;
+ -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3); 
+ }
+ 
+.search-button {
+
+     background: url(../images/searchicon_13.jpg);
+     width:23px ;
+     height:20px;
+}
+
+
+/*----------------------------
+	The Submit Button
+-----------------------------*/
+
+
+#main form input[type=submit]{
+	
+	border: 1px solid #004C9B;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #D3EBFF;
+    cursor: pointer;
+    display: block;
+    font: bold 24px Cambria,"Hoefler Text",serif;
+   
+   padding: 10px;
+    text-shadow: 0 -1px 0 #444444;
+    width: 410px;
+    
+	background-color:#0496DA;
+	
+	background-image: linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -o-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -moz-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -webkit-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -ms-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+}
+
+#main form input[type=submit]:hover{
+	
+	background-color:#0383d3;
+	
+	background-image: linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+}
+
+#main form input[type=submit]:active{
+	
+	background-color:#026fcb;
+	
+	background-image: linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+}
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+
+a, a:visited {
+	outline:none;
+	color:#1c4f64;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header{
+	display: block;
+}
+
+
+/*----------------------------
+	The Header
+-----------------------------*/
+
+
+h1{
+	font:bold 36px Cambria, "Hoefler Text",serif;
+	margin-bottom:50px;
+	color:#71564b;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+}
+
+
+/*----------------------------
+	The Form
+-----------------------------*/
+
+
+#main{
+	width:auto;
+	height:auto;
+	margin:80px auto 120px;
+	position:relative;
+	text-align:center;
+}
+
+#main form{
+	width:auto;
+	height:auto;
+	background:url('../images/bckform.jpg') ;
+	padding-top: 50px;
+}
+
+#main form .row{
+	position:relative;
+}
+
+#main form .row.error:after,
+#main form .row.success:after{
+	content:'';
+	
+	position:absolute;
+	right: 60px;
+    top: 8px;
+	width:32px;
+	height:32px;
+	background:url('http://i38.tinypic.com/33c4s9c.png') no-repeat;
+}
+
+#main form .row.error:after{
+	background-position: 0 -79px;
+}
+textarea{
+
+  width: 700px;
+  height: auto;
+}
+
+#main form input[type=email],
+#main form input[type=text],
+#main form input[type=password]{
+
+	border:none;
+	background:url('http://i34.tinypic.com/2qm0ndc.png') no-repeat top left;
+	font:14px 'Segoe UI','Arial',sans-serif;
+	color:#888;
+	
+	outline:none;
+	
+    height: 48px;
+    margin: 0 auto 22px;
+    padding: 0 10px 0 50px;
+    width: 278px;
+}
+
+#main form input[disabled]{
+	opacity: 0.5;
+}
+
+#main form .email input{
+	background-position:0 0;
+}
+
+#main form .email input:focus{
+	background-position:0 -48px;
+}
+
+#main form .pass input{
+	background-position:0 -96px;
+}
+
+#main form .pass input:focus{
+	background-position:0 -144px;
+}
+
+
+/*----------------------------
+	The Submit Button
+-----------------------------*/
+
+
+#main form input[type=submit]{
+	
+	border: 1px solid #004C9B;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #D3EBFF;
+    cursor: pointer;
+    display: block;
+    font: bold 24px Cambria,"Hoefler Text",serif;
+    margin: auto auto 0;
+    padding: 10px;
+    text-shadow: 0 -1px 0 #444444;
+    width: 410px;
+    
+	background-color:#0496DA;
+	
+	background-image: linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -o-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -moz-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -webkit-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+	background-image: -ms-linear-gradient(top, #0496DA 0%, #0067CD 100%);
+}
+
+#main form input[type=submit]:hover{
+	
+	background-color:#0383d3;
+	
+	background-image: linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #0383d3 0%, #004c9b 100%);
+}
+
+#main form input[type=submit]:active{
+	
+	background-color:#026fcb;
+	
+	background-image: linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -o-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -moz-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -webkit-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+	background-image: -ms-linear-gradient(top, #026fcb 0%, #004c9b 100%);
+}
+
+
+.button{
+border: none;
+  border: 0px;
+
+  padding: 0px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 150px;
+    margin-left: 30%;
+ }
+.button ul{
+ background:#F93;
+ height:50px;
+ list-style:none;
+ margin:0;
+ padding:0;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+ }
+ .button li{
+ float:left;
+ padding:0px 0px 0px 15px; 
+ }
+ .button li a{
+ color:#000;
+ display:block;
+ font-weight:normal;
+ line-height:50px;
+ margin:0px;
+ padding:0px 25px;
+ text-align:center;
+ text-decoration:none;
+ }
+ .button li a:hover{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+ }
+ .button ul li:hover a{
+ background:#C60;
+ color:#FFFFFF;
+ text-decoration:none;
+ }
+ .button li ul{
+ display:none;
+ height:auto;
+ padding:0px;
+ margin:0px;
+ border:0px;
+ position:absolute;
+ width:50px;
+ z-index:200;
+ }
+ .button li:hover ul{
+ display:block; 
+ }
+ .button li li {
+ display:block;
+ float:none;
+ margin:0px;
+ padding:0px;
+ width:200px;
+ background:#F93;
+ /*this is where the rounded corners for the dropdown disappears*/
+ }
+ .button li:hover li a{
+ background:none;
+ }
+ .button li ul a{
+ display:block;
+ height:50px;
+ font-size:12px;
+ font-style:normal;
+ margin:0px;
+ padding:0px 10px 0px 15px;
+ text-align:left;
+ }
+ 
+.element {
+    position: relative;
+}
+ 
+/*replace the content value with the
+corresponding value from the list below*/
+ 
+.element:before {
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+footer{
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	background-color: #111111;
+	bottom: 0;
+	box-shadow: 0 -1px 2px rgba(0,0,0,0.4);
+	height: 45px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+}
+
+footer h2{
+	color: #EEEEEE;
+	font-size: 14px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 13px 0 0;
+	position: absolute;
+	width: 540px;
+}
+
+footer h2 i{
+	font-style:normal;
+	color:#888;
+}
+
+footer a.al3xis,a.al3xis:visited{
+	color: #999999;
+	font-size: 12px;
+	left: 50%;
+	margin: 16px 0 0 110px;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+}
+
+footer a i{
+	color:#ccc;
+	font-style: normal;
+}
+
+footer a i b{
+	color:#c92020;
+	font-weight: normal;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+    margin-left: 30%;
+}
+
+h2 {
+font:bold 36px Cambria, "Hoefler Text",serif;
+	
+  display: block;
+  font-size: 20px;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+h4{
+   font:bold 36px Cambria, "Hoefler Text",serif;
+	
+  display: block;
+  font-size: 20px;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  
+    margin-left: 50%;
+}
+tr {
+font:bold 36px Cambria, "Hoefler Text",serif;
+font-size: 18px;
+  
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  
+  font-weight: bold;
+}

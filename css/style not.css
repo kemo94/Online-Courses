@@ -1,0 +1,278 @@
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+
+a, a:visited {
+	outline:none;
+	color:#1c4f64;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header{
+	display: block;
+}
+
+
+/*----------------------------
+	The Header
+-----------------------------*/
+
+
+h2{
+	font:bold 20px Cambria, "Hoefler Text",serif;
+	margin-bottom:50px;
+	color:#71564b;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+}
+h3{
+
+	font:bold 15px Cambria, "Hoefler Text",serif;
+	margin-bottom:10px;
+	color:#000000;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+
+}
+p{
+	font:bold 22px Cambria, "Hoefler Text",serif;
+	margin-bottom:10px;
+	color:#000000;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+}
+
+
+/*----------------------------
+	The Form
+-----------------------------*/
+
+
+.main-not{
+width: 100%;
+  height: auto;
+  /* margin-top: -150px; */
+  text-align: center;
+}
+
+.main-not form{
+	width:100%;
+	height:auto;
+	background:url('../images/bckform.jpg') ;
+	padding-top: 50px;
+}
+
+.main-not form input[type=email],
+.main-not form input[type=text],
+.main-not form input[type=password]{
+
+	border:none;
+	background:url('http://i34.tinypic.com/2qm0ndc.png') no-repeat top left;
+	font:14px 'Segoe UI','Arial',sans-serif;
+	color:#888;
+	
+	outline:none;
+	
+    height: 48px;
+    margin: 0 auto 22px;
+    padding: 0 10px 0 50px;
+    width: 70%;
+}
+.main-not section{  
+
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 5px;
+  
+}
+.main-not form input[type=submit]{
+
+
+  border: 1px solid #FFFFFF;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+  color: #D3EBFF;
+  cursor: pointer;
+  display: block;
+  font: bold 16px Cambria,"Hoefler Text",serif;
+  margin: auto auto 0;
+  padding: 10px;
+  text-shadow: 0 -1px 0 #444444;
+  width: 30%;
+  height: 5%;
+  background-color: #7C7B7B;
+
+  }
+ 
+
+.main-msg{
+width: 60%;
+  height: auto;
+  /* margin-top: -150px; */
+  text-align: center;
+}
+
+.main-msg form{
+	width:100%;
+	height:auto;
+	background:url('../images/bckform.jpg') ;
+	padding-top: 50px;
+}
+ 
+.main-msg form input[type=email],
+.main-msg form input[type=text],
+.main-msg form input[type=password]{
+
+	border:none;
+	background:url('http://i34.tinypic.com/2qm0ndc.png') no-repeat top left;
+	font:14px 'Segoe UI','Arial',sans-serif;
+	color:#888;
+	
+	outline:none;
+	
+    height: 48px;
+    margin: 0 auto 22px;
+    padding: 0 10px 0 50px;
+    width: 70%;
+}
+.main-msg section{  
+  position: relative;
+  height: auto;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  width: 60%;
+  margin-left: 5%;
+  
+}
+.main-msg form input[type=submit]{
+
+  border: 1px solid #FFFFFF;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+  color: #D3EBFF;
+  cursor: pointer;
+  display: block;
+  font: bold 16px Cambria,"Hoefler Text",serif;
+  margin: auto auto 0;
+  padding: 10px;
+  text-shadow: 0 -1px 0 #444444;
+  width: 30%;
+  height: 5%;
+  background-color: #7C7B7B;
+  
+ }
+ 
+
+.seen section{  
+  position: relative;
+  height: auto;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  width: 100%;
+  margin-left: 30%;
+  
+}
+
+.not section{  
+  position: relative;
+  height: auto;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  width: 100%;
+  margin-left: 30%;
+  background-color: rgb(255, 226, 199);
+}
+
+
+
+.seen-msg section{  
+  position: relative;
+  height: auto;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  width: 40%;
+  margin-left: 30%;
+  
+}
+
+.seen-msg-div{  
+position: relative; */
+  height: auto;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  /* width: 40%; */
+  /* margin-left: 30%; */
+  float: left;
+  width: 479px;
+  margin: 0px 10px 10px 0px; 
+}
+.not-msg {  
+
+position: relative; */
+  height: auto;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  /* width: 40%; */
+  /* margin-left: 30%; */
+  float: left;
+  width: 479px;
+  margin: 0px 10px 10px 0px;  
+  background-color: rgb(255, 226, 199); 
+}
+
+.main-right{
+   width: 100%;
+  height: auto;
+  /* margin-top: -150px; */
+  text-align: center;
+}
+ 
+.main-right section{  
+  position: relative;
+  height: auto;
+  -moz-box-shadow: 0 0 10px #333;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333;
+  width: 42%;
+  margin-right: 30%;
+  
+}
+.element {
+    position: relative;
+}
+ 
+/*replace the content value with the
+corresponding value from the list below*/
+ 
+.element:before {
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}

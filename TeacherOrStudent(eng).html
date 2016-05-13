@@ -1,0 +1,61 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>مدرس أم طالب</title>
+    <link href="css/style-back.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/style SignUp.css" />
+   
+      <script type = 'text/javascript'>
+      
+      function getMsg() {
+
+          var vars = {};
+          var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+              vars[key] = value;
+
+          });
+        
+ 		if (vars["msg"] == 5)
+                  alert("Sign out success ");
+             
+	       
+      }
+	  window.addEventListener("load", getMsg, false);
+
+      
+
+
+    </script>   
+
+         
+</head>
+
+<body>
+    <div class="wrapper1">
+        <div class="wrapper2">
+            <div class="right-side">
+        
+		   	    <img src="images/مرحبا.png" width="1000" height="150" float="left"/> 
+        	  	<div class="top-side" > <a href="TeacherOrStudent(eng).html" > <img src="images/eng.jpg" width="40" height="25" float="left"/>  </a> 
+			 <a href="TeacherOrStudent.html" > <img src="images/arabic.jpg" width="40" height="25" float="left"/>  </a> </div>
+            </div>
+	    
+            <div class="right-side">
+                    <a href="Login(eng).php?type=1" > <img src="images/teacher.png" width="200" height="150" float="left"/> </a>
+                    <a href="Login(eng).php?type=2" > <img src="images/student.png" width="200" height="150" float="left"/>     </a>
+                  
+           </div>
+		       
+            <div class="right-side">
+                          <h1>     Teacher    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; Student            </h1>     
+					
+           </div>
+		   
+                
+            </div>
+            </div>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+*{
+	margin:0;padding:0;}
+body {
+	background: url(../images/dealwaty-Home_03.jpg) repeat;
+	font-family: "TR Century Gothic";
+
+	font-size: 14px;
+	color: #1e1e1e;
+    font:14px/1.3 'Segoe UI', 'Arial', sans-serif;
+    height:auto;
+
+}
+.wrapper1 {
+	width: 100%;
+    
+}
+.wrapper2 {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 980px;
+}
+.header {
+	height: 140px;
+	width: 980px;
+}
+.logo {
+	float: left;
+	background-color: #CCC;
+	height: 110px;
+	width: 280px;
+	margin: 25px 0 0 0;
+}
+.login {
+	float: right;
+	height: 20px;
+	width: 150px;
+	font-size: 12px;
+}
+.horz-adbanner {
+	float: right;
+	height: 114px;
+	width: 597px;
+}
+.menu {
+	height: 43px;
+	width: 980px;
+	background: url(../images/menubottom.png) no-repeat bottom; 
+	
+}
+.menu-top {
+	background: url(../images/menutop.png) no-repeat;
+	width: 980px;
+	height: 3px;
+	margin-bottom: 10px;
+}
+.horz-menu {
+	padding-left: 30px;
+}
+.horz-menu li{
+	float: left;
+	margin: 0 20px 0 20px;
+	list-style-type: none;
+}
+.horz-menu li a{
+	text-decoration: none;
+	color: #1e1e1e;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.horz-menu li a:hover {
+	color: #a50e0e;
+}
+.main-slider {
+	height: 440px;
+	width: 980px;
+	margin: 20px 0 20px 0;
+}
+.left-side {
+	width: 250px;
+	float: left;
+    margin:40px;
+	padding-left: 10px;
+}
+.search {
+	height: 40px;
+	background: url(../images/searchbottom.png) no-repeat bottom;
+	width: 217px;
+	margin-bottom: 25px;
+}
+.search-top {
+	background: url(../images/searchtop.png) no-repeat;
+	width: 217px;
+	height: 3px;
+	margin-bottom: 7px;
+}
+.searchwrap {
+	height: 20px;
+	width: 213px;
+	-moz-box-shadow:0 0 5px #333;
+	-webkit-box-shadow:0 0 5px #333;
+	box-shadow:0 0 5px #333;
+}
+.search-box {
+    
+	height: 20px;
+	width: 190px;
+	border: none;
+	float: left;
+}
+.search-button {
+
+     background: url(../images/searchicon_13.jpg);
+     width:23px ;
+     height:20px;
+}
+
+
+.vert-menu {
+	margin-left: 6px;
+}
+
+.vert-menu li {
+	list-style-type: none;
+	background-image: url(../images/menu-sep..png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.vert-menu li a{
+	text-decoration: none;
+	color: #1e1e1e;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+.vert-menu li a:hover{
+	color: #a50e0e;
+}
+.right-side {
+	float: left;
+	width: 120%;
+}
+.offer-box {
+	float: left;
+	width: 340px;
+	height: 295px;
+	-webkit-box-shadow: 0px 0px 7px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 7px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 0px 7px rgba(50, 50, 50, 0.5);
+	margin: 0 10px 20px 10px;
+}
+.offer-h {
+	height: 65px;
+	width: 330px;
+	padding: 10px 0 0 10px;
+	background: url(../images/menu-sep..png) #ececec no-repeat center bottom;
+}
+.tittle a{
+	font-size: 18px;
+	color: #1e1e1e;
+	line-height: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+}
+.tittle a:hover{
+	color: #a50e0e;
+}
+
+.tittle2 {
+	font-size: 14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 18px;
+}
+.timing {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #a41c1c;
+}
+.offer-img {
+	height: 220px;
+	width: 340px;
+	background-color: #FFF;
+}
+.mydropdown {
+margin-right:auto;
+}
+.top-side a{
+    text-decoration: none;
+	color: #1e1e1e;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ 
